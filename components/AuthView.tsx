@@ -111,4 +111,8 @@ const AuthView: React.FC<AuthViewProps> = ({ onAuthSuccess }) => {
     );
 };
 
+<<<<<<< HEAD
 export default AuthView;
+=======
+export default AuthView;
+>>>>>>> 9ee50d98492dc7e9af71d91c905fca21b2bb45bf

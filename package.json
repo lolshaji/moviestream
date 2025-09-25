@@ -10,7 +10,10 @@
   },
   "dependencies": {
     "@google/genai": "latest",
+<<<<<<< HEAD
     "@supabase/supabase-js": "^2.57.4",
+=======
+>>>>>>> 9ee50d98492dc7e9af71d91c905fca21b2bb45bf
     "firebase": "^12.3.0",
     "react": "^19.1.1",
     "react-dom": "^19.1.1"
@@ -18,6 +21,10 @@
   "devDependencies": {
     "@types/node": "^22.14.0",
     "@vitejs/plugin-react": "^5.0.0",
+<<<<<<< HEAD
+=======
+    "gh-pages": "^6.3.0",
+>>>>>>> 9ee50d98492dc7e9af71d91c905fca21b2bb45bf
     "typescript": "~5.8.2",
     "vite": "^6.2.0"
   }
