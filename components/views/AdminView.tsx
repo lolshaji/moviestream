@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { db, auth } from "../firebase";
+import { db, auth } from "@/firebase"; // ✅ Use alias instead of ../firebase
 import {
   collection,
   addDoc,
@@ -21,7 +21,7 @@ interface Movie {
   category: string;
 }
 
-// ✅ Your admin emails
+// ✅ List of admin emails allowed
 const ADMIN_EMAILS = ["ayahakuttyv@gmail.com", "ktmuhammedrayyan@gmail.com"];
 
 const AdminView: React.FC = () => {
